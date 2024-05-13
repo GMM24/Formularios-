@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro </title>
+</head>
+
+<body>
+    <a href="index.html">REGRESAR</a>
+    <form action="" style=" width: 300px; margin: auto; border: 1px solid black; padding: 10px;">
+        Registrarse
+        <hr>
+
+        <p> <label for="txt_name">Nombre(s):</label>
+            <br>
+            <input type="text" name="txt_nombre" size="38" placeholder="Ingrese su Nombre">
+        </p>
+
+        <p>
+            <label for="txt_lastname">Apellido(s)</label>
+            <br>
+            <input type="text" name="txt_lastname" size="38" placeholder="Ingrese su apellido">
+        </p>
+
+        <p>
+            <label for="txt_number">Teléfono</label>
+            <br>
+            <input type="tel" name="txt_number" size="38" placeholder="Ingrese su numero telefónico">
+        </p>
+        <label for="txt_fecha">Fcecha de Nacimiento</label>
+        <br>
+        <input type="date" name="txt_fecha" placeholder="Ingrese su fecha de Nacimiento">
+        <br>
+        <br>
+        <label for="">Hombre</label>
+        <input type="radio" value="Hombre" name="opt_genero">
+        <label for="">Mujer</label>
+        <input type="radio" value="Mujer" name="opt_genero">
+        <br>
+        <br>
+        Intereses:
+        <br>
+        <label for="">Educación</label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Deportes</label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Arte</label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Cine</label>
+        <input type="checkbox" name="chk_intereses">
+        <br>
+        <br>
+        Nivel Academico:
+        <br>
+        <select name="lst_level" id="lst_level">
+            <option value="1">Nivel Primario</option>
+            <option value="2">Nivel Básico</option>
+            <option value="3">Nivel Diversificado</option>
+            <option value="4">Nivel Universitario</option>
+        </select>
+        <br>
+        <br>
+        <label for="txt_email">Correo Electronico:</label>
+        <br>
+        <input type="email" name="Correo Electronico" placeholder="Ingrese su correo electronico" size="38">
+        <br>
+        <br>
+        <input type="submit" name="btn_registro" value="Registrar">
+
+
+
+
+    </form>
+</body>
+
+</html>
