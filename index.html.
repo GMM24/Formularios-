@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;"><b>ACTIVIDAD PARA DESARROLLAR HABILIDADES Y DESTREZAS 1
+
+            FORMULARIOS HTML</b></h1>
+    <form style="margin: auto; width: 300px; border: 1px solid black; padding: 10px;">
+            Iniciar Sesión 
+        <hr>
+        <br>
+        <label for="txt_name">Nombre de Usuario:</label>
+        <br>
+        <input type="text" name="txt_nombre" placeholder="Ingrese su Nombre" size="36">
+        <br>
+        <label for="txt_passware">Contraseña:</label>
+        <br>
+        <input type="password" name="txt_contrasena" placeholder="Ingrese su Contraseña" size="36">
+        <label for="btn_acceder"></label>
+        <br>
+        <br>
+        <input  type="button" name="btn_acceder" value="Acceder" >
+        <br>
+        <br>
+        <b><a href="olvidosucontraseña.html">Olvido su Contraseña</a></b>
+        <hr>
+        Usuario Nuevo
+        <br>
+        <div>
+            <button><a href="registrarse.html">REGISTRARSE</a></button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
